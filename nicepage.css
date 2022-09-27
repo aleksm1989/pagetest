@@ -22513,7 +22513,7 @@ h6 {
 }
 .u-body {
   color: #111111;
-  background-color: #ffffff;
+  background-color: #cecece;
   --effect-scale: 1.1;
 }
 /*end-variables color*/
@@ -37628,11 +37628,18 @@ a.u-link.u-text-hover-grey-90:hover {
         
         
         
+        
+        
+        
         --theme-sheet-width-xl: 1140px;
         --theme-sheet-width-lg: 940px;
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
+        
+        
+        
+        
         
         
         
@@ -37668,11 +37675,14 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         h2:not(.u-subtitle)
         {
-        font-weight: 400;
-        font-size: 2.25rem;
+        font-size: 3rem;
         line-height: 1.1;
         margin-top: 20px;
         margin-bottom: 20px;
+        font-weight: 400;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
+        font-family: 'Akaya Telivigala';
         }
         h3
         {
@@ -37755,6 +37765,13 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         margin-top: 20px;
         margin-bottom: 20px;
+        }
+        .u-body
+        {
+        background-size: cover;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
         }
         /** common-rules **/
 
@@ -37920,36 +37937,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 112px;
+  min-height: 80px;
 }
 
-.u-header .u-image-1 {
-  width: 191px;
-  height: 76px;
-  margin: 22px auto 0 0;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
-}
-
-.u-header .u-menu-1 {
-  margin: -44px 0 22px auto;
-}
-
-.u-header .u-nav-1 {
-  font-size: 1.25rem;
-}
-@media (max-width: 1199px) {
-  .u-header .u-image-1 {
-    width: 191px;
-  }
-
-  .u-header .u-menu-1 {
-    width: auto;
-  }
-}
 
 
 
